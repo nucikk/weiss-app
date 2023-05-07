@@ -2,7 +2,8 @@
     width: 1216px;
     height: 86.25rem;
     margin: auto;
-    background-color:rgb(206, 206, 9);
+    overflow: hidden;
+    background-color:#f8f8f869;
 }
 
 
