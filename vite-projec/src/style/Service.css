@@ -1,0 +1,29 @@
+.service_container {
+    width: 100%;
+    background-color: #F5F8FA;
+    margin-top: -16.875rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.service_content {
+    /* background-color: #F5F8; */
+    width: 1225px;
+    height: 881px;
+}
+
+.service_description {
+    width: 500px;
+    margin-top: 170px;
+}
+
+.service_description h4 {
+    font-size: 24px;
+
+}
+
+.service_description p {
+    color:  #929A9F;
+    font-weight: bold;
+}
