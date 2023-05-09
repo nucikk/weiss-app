@@ -1,29 +1,55 @@
 .service_container {
-    width: 100%;
-    background-color: #F5F8FA;
-    margin-top: -16.875rem;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+  width: 100%;
+  background-color: #f5f8fa;
+  margin-top: -16.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service_content {
-    /* background-color: #F5F8; */
-    width: 1225px;
-    height: 881px;
+  width: 1225px;
+  height: 881px;
 }
 
 .service_description {
-    width: 500px;
-    margin-top: 170px;
+  width: 500px;
+  margin-top: 170px;
 }
 
 .service_description h4 {
-    font-size: 24px;
-
+  font-size: 24px;
 }
 
 .service_description p {
-    color:  #929A9F;
-    font-weight: bold;
+  color: #929a9f;
+  font-weight: bold;
+}
+
+.service_article {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.informative_box {
+  height: 37.8125rem;
+}
+
+.informative_box img {
+  margin: -2.5rem;
+}
+
+.informative_content {
+  width: 19.3125rem;
+  margin: 0 auto;
+}
+
+.informative_description {
+  color: #929a9f;
+  margin-bottom: 1.1875rem;
+}
+
+.informative_link {
+  color: #ff9900;
 }
