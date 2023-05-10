@@ -1,8 +1,11 @@
 import "../style/Service.css";
 import informativeData from "../components/informative-data";
+import History from "./History";
 
 const Service = () => {
   return (
+    <>
+
     <div className="service_container">
       <div className="service_content">
         <div className="service_description">
@@ -29,9 +32,11 @@ const Service = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div>    <History />   
       </div>
-    </div>
+    </div>     
+
+     </>
   );
 };
 
