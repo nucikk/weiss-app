@@ -1,7 +1,10 @@
 import "../style/history.css";
 import historyImage from "../image/history-Image.png";
+import Posts from "./Posts";
+
 const History = () => {
   return (
+    <>
     <div className="history_container">
       <div className="historiography">
         <div className="historiography_overview">
@@ -22,8 +25,10 @@ const History = () => {
 
           <img className="history_img" src={historyImage} alt="" />
         </div>
-      </div>
-    </div>
+    </div>   
+    </div>    
+     <Posts />
+     </>    
   );
 };
 
