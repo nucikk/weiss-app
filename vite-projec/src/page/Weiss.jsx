@@ -8,6 +8,8 @@ const Weiss = () => {
     <>
       <Navbar/>
       <Hero/>
+
+
     </>
   )
 }

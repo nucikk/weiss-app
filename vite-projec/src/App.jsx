@@ -1,6 +1,7 @@
-import './App.css'
+import './style/App.css'
 import Service from './page/Service'
 import Weiss from './page/Weiss'
+
 
 function App() {
 

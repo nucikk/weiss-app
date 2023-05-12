@@ -1,0 +1,55 @@
+.footer_section {
+  width: 1225px;
+  display: flex;
+  position: relative;
+}
+
+.career_info {
+  width: 328px;
+  height: 260px;
+  margin: 100px 0;
+  position: relative;
+}
+
+.career_title {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #929a9f;
+}
+
+.career_heading {
+  font-size: 32px;
+  line-height: 44px;
+  margin: 16px 0 24px;
+}
+
+.career_overview {
+  line-height: 28px;
+  color: #929a9f;
+  margin: 24px 0 32px;
+}
+
+.career_button {
+  width: 135px;
+  height: 40px;
+  background-color: #ff9900;
+  border: none;
+}
+
+.career_image {
+  position: absolute;
+  width: 728px;
+  height: 484px;
+  left: 447px;
+  top: -196px;
+  filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
+}
+
+.footer_wrap {
+  position: absolute;
+  width: 1920px;
+  height: 304px;
+  margin-top: 530px;
+  background-color: #263640;
+}
