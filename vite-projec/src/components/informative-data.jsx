@@ -1,5 +1,5 @@
 import StudiesPhoto from "../image/article-image-1.png"
-import ConceptsPhoto from "../image/article-image-2.png"
+import ConceptsPhoto from "../image/article-image-1.png"
 import ResearchPhoto from "../image/article-image-3.png"
 
  const informativeData = [
