@@ -37,8 +37,8 @@
 
 .footer_container {
   width: 1920px;
+  height: 832px;
   margin-left: -359px;
-  height: 900px;
   display: flex;
   justify-content: center;
   background-color: #F5F8FA;

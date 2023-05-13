@@ -1,20 +1,21 @@
+/*! Footer section */
 .footer_section {
+  position: relative; 
+  display: flex; 
   width: 1225px;
-  display: flex;
-  position: relative;
 }
 
 .career_info {
+  position: relative; 
   width: 328px;
   height: 260px;
   margin: 100px 0;
-  position: relative;
 }
 
 .career_title {
-  font-size: 14px;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
   color: #929a9f;
 }
 
@@ -26,30 +27,68 @@
 
 .career_overview {
   line-height: 28px;
-  color: #929a9f;
   margin: 24px 0 32px;
+  color: #929a9f;
 }
 
 .career_button {
   width: 135px;
   height: 40px;
-  background-color: #ff9900;
   border: none;
+  background-color: #ff9900;
 }
 
 .career_image {
   position: absolute;
-  width: 728px;
-  height: 484px;
   left: 447px;
   top: -196px;
+  width: 728px;
+  height: 484px;
   filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
 }
 
-.footer_wrap {
+/*! Footer article section */
+.footer_article {
   position: absolute;
   width: 1920px;
   height: 304px;
   margin-top: 530px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   background-color: #263640;
 }
+
+.footer_card {
+  width: 1216px;
+  height: 300px;
+  color: #FFFFFF;
+}
+
+.footer_category {
+  padding: 64px 0;
+  display: flex; 
+  justify-content: space-between;
+  border-bottom: 1px solid #84848465;
+}
+
+.footer_intro {
+  width: 411px;
+  height: 78px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.intro_left_text {
+  width: 157px;
+}
+
+.intro_right_text {
+  width: 109px;
+}
+
+.footer_data_protection {
+  margin-top: 40px;
+  opacity: 0.5;
+}
+"Add data protection content to footer section"
